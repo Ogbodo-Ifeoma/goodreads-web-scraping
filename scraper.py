@@ -3,7 +3,6 @@ from bs4 import BeautifulSoup
 import pandas as pd
 
 books_to_movies = []
-
 for i in range(1, 11):
     url = 'https://www.goodreads.com/list/show/1043.Books_That_Should_Be_Made_Into_Movies{?page=i}'
     page = requests.get(url)
